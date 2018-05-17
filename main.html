@@ -1,0 +1,363 @@
+<html>
+    <head>
+        <title>Rivercool</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="containers.css">
+    </head>
+    <body>
+        <header>
+            <img src="png/logo.png" id="logo">
+            <p class="letter_case">Продажа напольных кондиционеров с доставкой по Москве и России</p>
+            <img src="png/phone.png" id="phone">
+            <p class="text" name="phone">+7 (915) 426-49-44</p>
+            <a name="pop_up">Заказать звонок</a>
+        </header>
+        <article id="from_production">
+            <p class="text"><b>Мобильные кондиционеры</b> <span class="article">Kibor</span> напрямую от производителя</p>
+            <section class="ikons">
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <p class="sample">Не требует установки</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png" >
+                    <p class="sample">Невозможно простудиться</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png" >
+                    <p class="sample">Дешевая профилактика</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png" >
+                    <p class="sample">Не сушит воздух</p>
+                </div>
+            </section>
+            <button class="show_catalog btn">
+                Cмотреть католог
+            </button>
+            <div id="background_overlay"></div>
+        </article>
+        <article class="ikons_with_desc">
+            <section class="ikon">
+                <img src="png/freon.png">
+                <p class="desc"><b>Не содержит</b> фреона</p>
+            </section>
+            <section class="ikon">
+                <img src="png/setup.png">
+                <p class="desc"><b>Не требует</b> подключения и монтажа</p>
+            </section>
+            <section class="ikon">
+                <img src="png/secure.png">
+                <p class="desc"><b>Безопасен</b> для детей и животных</p>
+            </section>
+        </article>
+        <article id="rivercool">
+            <img src="png/hands.png">
+            <section>
+                <h1 class="article">Речная прохлада</h1>
+                <ul id="first_column">
+                    <li>В квартире</li>
+                    <li>В офисе</li>
+                    <li>На даче</li>
+                    <li>В детской комнате</li>
+                </ul>
+                <ul id="second_column">
+                    <li>В спальне</li>
+                    <li>В холле</li>
+                    <li>В кладовой</li>
+                    <li>В магазине</li>
+                </ul>
+
+            </section>
+        </article>
+        <article class="line_of_gods">
+            <h1 class="article">Линейка товаров</h1>
+            <div class="line">
+                <div class="card_of_god">
+                    <img src="png/example1.png">
+                    <div class="info">
+                        <p class="article">Kibor16</p>
+                        <p class="desc">(для помещения до 18м<span>2</span>)</p>
+                        <p class="old_price">27 500 руб.</p>
+                        <p class="new_price">14 500 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+                <div class="card_of_god">
+                    <img src="png/example2.png">
+                    <div class="info">
+                        <p class="article">Kibor 30</p>
+                        <p class="desc">(для помещения до 35м2)</p>
+                        <p class="old_price">22 900 руб.</p>
+                        <p class="new_price">19 900 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+                <div class="card_of_god">
+                    <img src="png/example3.png">
+                    <div class="info">
+                        <p class="article">Kibor 25</p>
+                        <p class="desc">(для помещения до 25м2)</p>
+                        <p class="old_price">20 600 руб.</p>
+                        <p class="new_price">17 500 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+            </div>
+        </article>
+        <article id="look_video">
+            <div id="text">
+                <div id="logo"></div>
+                <p>
+                <script>
+                    for(var i=0; i<10; i++){
+                        document.write("Text example text.");
+                    };
+                </script>
+                </p>
+            </div>
+            <div id="video">
+                <video></video>
+            </div>
+        </article>
+        <article id="compare_gods">
+            <table>
+                <caption class="article">
+                Сравнение товаров
+                </caption>
+                <tr>
+                    <th id="catigories">Характеристики</th>
+                    <th class="full_card">
+                        <img src="png/example1.png">
+                        <p class="article">Kibor16</p>
+                        <p class="new_price">14 500 руб.</p>
+                    </th>
+                    <th class="full_card">
+                        <img src="png/example2.png">
+                        <p class="article">Kibor 30</p>
+                        <p class="new_price">19 900 руб.</p>
+                    </th>
+                    <th class="full_card">
+                        <img src="png/example3.png">
+                        <p class="article">Kibor 25</p>
+                        <p class="new_price">17 500 руб.</p>
+                    </th>
+                </tr>
+                <tr class="even">
+                    <td>Инвертор</td>
+                    <td class="yes">Есть</td>
+                    <td class="no">Нет</td>
+                    <td class="no">Нет</td>
+                </tr>
+                <tr class="odd">
+                    <td>Мощность охлаждения</td>
+                    <td>2200 Вт</td>
+                    <td>2550 Вт</td>
+                    <td>2400 Вт</td>
+                </tr>
+                <tr class="even">
+                    <td>Мощность обогрева</td>
+                    <td>2800 Вт</td>
+                    <td>2350 Вт</td>
+                    <td>2600 Вт</td>
+                </tr>
+                <tr class="odd">
+                    <td>Площадь помещения</td>
+                    <td>18м<span>2</span></td>
+                    <td>35м<span>2</span></td>
+                    <td>25м<span>2</span></td>
+                </tr>                
+                <tr class="even">
+                    <td>Уровень шума</td>
+                    <td>25-37 дБ</td>
+                    <td>15-22 дБ</td>
+                    <td>20-25 дБ</td>
+                </tr>
+                <tr class="odd">
+                    <td>Режим охлаждения</td>
+                    <td class="no">Нет</td>
+                    <td class="yes">Есть</td>
+                    <td class="no">Нет</td>
+                </tr>                
+                <tr class="even">
+                    <td>Гарантия производителя</td>
+                    <td>36 месяцев</td>
+                    <td>36 месяцев</td>
+                    <td>36 месяцев</td>
+                </tr>
+                <tr class="odd">
+                    <td>Напряжение</td>
+                    <td>220 В</td>
+                    <td>220 В</td>
+                    <td>220 В</td>
+                </tr>                
+                <tr class="even">
+                    <td>Хладагент</td>
+                    <td>R410a</td>
+                    <td>R410a</td>
+                    <td>R410a</td>
+                </tr>
+                <tr id="buttons">
+                    <td></td>
+                    <td><button class="do_order btn">Заказать</button></td>
+                    <td><button class="btn do_order">Заказать</button></td>
+                    <td><button class="btn do_order">Заказать</button></td>
+                </tr>            </table>
+        </article>
+        <article id="our_advantages">
+            <h1 class="article">Наши преимущества</h1>
+            <div class="ikons">
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <p>Курьерская доставка по Москве и МО</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <p>Привезем в течении суток</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <p>Оплата при получении</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <p>Распаковка и проверка при Вас</p>
+                </div>
+            </div>
+        </article>
+        <article id="faq">
+            <h1 class="article">Частые вопросы клиентов</h1>
+            <p>на вопросы отвечает эксперт по кондиционерам Kibor</p>
+            <div id="face"></div>
+            <div id="help_on">Помощь онлайн</div>  
+            <div id="questions">
+                <div class="que">
+                    <a>1. Можно ли оставлять работать мобильный кондиционер ночью?</a>
+                    <button class="show" id="show_1"></button>
+                    <p id="1">Нет</p>
+                </div>
+                <div class="que">
+                    <a href="#">1. Можно ли оставлять работать мобильный кондиционер ночью?Можно ли оставлять работать мобильный кондиционер ночью?</a>
+                    <button class="show" id="show_2"></button>
+                    <p id="2">Нет</p>
+                </div>
+                <div class="que">
+                    <a href="#">1. Можно ли оставлять работать мобильный кондиционер ночью?</a>
+                    <button class="show" id="show_3"></button>
+                    <p id="3">НетМожно ли оставлять работать мобильный кондиционер ночью?Можно ли оставлять работать мобильный кондиционер ночью?Можно ли оставлять работать мобильный кондиционер ночью?Можно ли оставлять работать мобильный кондиционер ночью?Можно ли оставлять работать мобильный кондиционер ночью?</p>
+                </div>
+                <div class="que" id="show_4">
+                    <a href="#">1. Можно ли оставлять работать мобильный кондиционер ночью?</a>
+                    <button class="show"></button>
+                    <p id="4">Нет</p>
+                </div>
+            </div>
+            <script src="js/show_ans.js"></script>
+
+        </article>
+        <article id="warranty">
+            <div>
+                <div id="sertificat"></div>
+                <h1 class="article">Предоставляем гарантии</h1>
+                <p class="warn">Срок служы товара составляет не менее 7 лет</p>
+                <p class="text">Мы уверены в качестве потребительских свойств своего товара и предоставляем <a>гарантию на 1 год.</a></p>
+            </div>
+        </article>
+        <article id="whirligig">
+            <h1 class="article">Галерея товаров</h1>
+                <div class="pict" id="llpic"></div>
+                <div class="pict" id="rrpic"></div>
+                <div class="pict" id="lpic"></div>
+                <div class="pict" id="rpic"></div>
+                <div class="pict" id="cpic"></div>
+                <div class="arrow_button" id="r"></div>
+                <div class="arrow_button" id="l"></div>
+            <script src="js/whirligig.js"></script>
+        </article>
+        <article id="excelence">
+            <h1><span style="font-size: 35px; color: #57b8ff">3 функции</span> в 1 корпусе</h1>
+            <div class="ikons">
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <div class="mini_ikon">1</div>
+                    <p>Охлаждение летом</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <div class="mini_ikon">2</div>
+                    <p>Обогрев весной и осенью</p>
+                </div>
+                <div class="ikon">
+                    <img src="png/falsch_ikon.png">
+                    <div class="mini_ikon">3</div>
+                    <p>Увлажнение зимой</p>
+                </div>
+            </div>
+        </article>
+        <article class="line_of_gods">
+            <h1 class="article">Линейка товаров</h1>
+            <div class="line">
+                <div class="card_of_god">
+                    <img src="png/example1.png">
+                    <div class="info">
+                        <p class="article">Kibor16</p>
+                        <p class="desc">(для помещения до 18м<span>2</span>)</p>
+                        <p class="old_price">27 500 руб.</p>
+                        <p class="new_price">14 500 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+                <div class="card_of_god">
+                    <img src="png/example2.png">
+                    <div class="info">
+                        <p class="article">Kibor 30</p>
+                        <p class="desc">(для помещения до 35м2)</p>
+                        <p class="old_price">22 900 руб.</p>
+                        <p class="new_price">19 900 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+                <div class="card_of_god">
+                    <img src="png/example3.png">
+                    <div class="info">
+                        <p class="article">Kibor 25</p>
+                        <p class="desc">(для помещения до 25м2)</p>
+                        <p class="old_price">20 600 руб.</p>
+                        <p class="new_price">17 500 руб.</p>
+                        <button class="btn do_order">Заказать</button>
+                    </div>
+                    <div class="arrow right_arrow"></div>
+                    <div class="arrow left_arrow"></div>
+                </div>
+            </div>
+        </article>
+        <article id="review">
+            <button id="do_review">Оставить отзыв</button>
+        </article>
+        <article id="subs">
+            <h1>Подпишись на рассылку</h1>
+            <h3>и получи возможность узнать о наших скидках</h3>
+            <input type="email" placeholder="Почта">
+            <button></button>
+            <p class="letter_case">*Мы не передаем контакты третьим лицам</p>
+        </article>
+        <footer> 
+            <img id="logo" src="png/logo.png">
+            <img id="phone" src="png/phone.png">
+            <p class="phone">+7 (915) 426-49-44</p>
+            <img id="fb" src="png/fb_ikon.png">
+            <img id="insta" src="png/insta_ikon.jpeg">
+        </footer>
+    </body>
+</html>

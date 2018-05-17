@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Containers</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="containers.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="links">
+            <a href="#" class="modal" id="one">Открыть окно 1</a>
+            <a href="#" class="modal" id="two">Открыть окно 2</a>
+            <a href="#" class="modal" id="three">Открыть окно 3</a>
+            <a href="#" class="modal" id="four">Открыть окно 4</a>
+        </div>
+        <div>
+            <script>
+                for(var i=0; i<10; i++){
+                    document.write(
+                        "Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу.<br />               Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что консультация с широким активом играет важную роль в формировании новых предложений.")
+                }
+            
+            </script>
+        </div>
+        <div class="pop_up" id="ask_discount">
+            <div class="close">
+                x
+            </div>
+            <div class="content">
+                <div class="discount">
+                    <p class="article">Получите скидку 300р.</p>
+                    <p class="text">на доставку первой покупки</p>
+                </div>
+                <button class="btn">Получить скидку</button>
+                <div class="undercover">
+                    <p class="letter_case">*Стандартная стоимость доставки - 600р.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pop_up" id="form_to_discount">
+            <div class="close">
+                x
+            </div>            
+            <div class="content">
+                <div class="discount">
+                    <p class="article">Получите скидку 600р.</p>
+                    <p class="text">на доставку первой покупки</p>
+                </div>
+                <div class="contact_form">
+                    <form action="" method="">
+                        <input type="text" placeholder="Максим Сурков" name="full_name" required autofocus /><br />
+                        <input type="email" placeholder="example@email.com" name="email" required /><br />
+                        <input type="tel" placeholder="+79625587593" name="phone" required /><br />
+                    </form>
+                </div>
+                <button class="btn">Отправить</button>
+                <div class="undercover">
+                    <p class="letter_case">*Оставляя заявку вы соглашаетсь с <a href="#">политикой конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="pop_up" id="policy">
+            <div class="close">
+                x
+            </div>
+            <div class="content">
+                <div class="article_police">
+                    <p class="header">Политика конфиденциальности</p>
+                    <p class="text">
+                        Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу.               Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что консультация с широким активом играет важную роль в формировании новых предложений.
+                    </p>
+                </div>
+                <div class="link_to">
+                    <div class="arrow"><img src="arrow.png" id="arrow"/>  </div>
+                    <div class="text">Обратно к заявке</div> 
+                </div>
+            </div>
+        </div>
+        <div class="pop_up" id="congratulation">
+            <div class="close">
+                x
+            </div>            
+            <div class="content">
+                <div class="succses">
+                    <img id="bird" src="bird.png" >
+                </div>
+                <div class="congrat">
+                    <p class="article">Заявка отправлена!</p>
+                <p class="letter_case">Мы свяжемся с Вами в течении 15 минут</p>
+                </div>            
+            </div>
+        </div>        
+        <div id="overlay"></div>
+        <script src="showPopUp.js"></script>
+        
+    </body>
+</html>
